@@ -1,13 +1,13 @@
 import { FadeIn } from '../ui/FadeIn'
 
-import img1 from '../../../public/app-rectas-1.png'
-import img2 from '../../../public/app-recetas-2.png'
-import img3 from '../../../public/app-recetas-3.png'
-import img4 from '../../../public/upTask-1.png'
-import img5 from '../../../public/uptask-2.png'
-import img7 from '../../../public/tangomaNextjs-1.png'
-import img8 from '../../../public/tangomaNextjs-2.png'
-import img9 from '../../../public/tangomaNextjs-3.png'
+const img1 = '/app-rectas-1.png'
+const img2 = '/app-recetas-2.png'
+const img3 = '/app-recetas-3.png'
+const img4 = '/uptask-1.png'
+const img5 = '/uptask-2.png'
+const img7 = '/tangomaNextjs-1.png'
+const img8 = '/tangomaNextjs-2.png'
+const img9 = '/tangomaNextjs-3.png'
 
 type Project = {
     title: string
