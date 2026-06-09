@@ -1,5 +1,7 @@
 import { FadeIn } from '../ui/FadeIn'
 
+const imgJasi1 = '/jasihome-1.png'
+const imgJasi2 = '/jasihome-2.png'
 const img1 = '/app-rectas-1.png'
 const img2 = '/app-recetas-2.png'
 const img3 = '/app-recetas-3.png'
@@ -18,6 +20,14 @@ type Project = {
 }
 
 const projects: Project[] = [
+    {
+        title: "Jasi Home — Tienda de Decoración & Muebles",
+        description:
+            "E-commerce completo de decoración de interiores y muebles. Incluye autenticación de usuarios, contacto directo por WhatsApp y email, y panel de administrador con estadísticas de ventas y gestión de pedidos.",
+        stack: ["PostgreSQL", "Express", "React", "Node.js", "JWT"],
+        images: [imgJasi1, imgJasi2],
+        url: "https://jasi-home-deco.vercel.app/",
+    },
     {
         title: "Aplicación de Recetas",
         description:
