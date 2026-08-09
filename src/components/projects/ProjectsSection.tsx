@@ -40,7 +40,7 @@ const secondaryProjects: Project[] = [
             "Gestión de proyectos con tablero de tareas y estados. Permite agregar compañeros, dejar notas, y comentar en tareas. Autenticación con confirmación de email obligatoria.",
         stack: ["MongoDB", "Express", "React", "Node.js", "JWT"],
         images: [img4, img5],
-        url: "https://up-task-mern-beta.vercel.app/auth/login",
+        url: "https://up-task-mern-beta.vercel.app/",
     },
 ]
 
